@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "flownative/webcompiler",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flownative\\WebCompiler\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Flownative.WebCompiler"
+        }
+    }
+}
